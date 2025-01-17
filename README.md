@@ -32,6 +32,10 @@ rm src/*.js
 - 在 `src` 目录下创建 `.js` 文件
 - 每个规则文件需要包含以下基本结构：
 
+事件最少需要：
+- onInfo
+- onList 或 onSearch 一个或两个
+
 ```javascript
 hun.events.onSearch = async (ctx) => {};
 hun.events.onInfo = async (ctx) => {};
@@ -63,11 +67,6 @@ hun.events.onList = async (ctx) => {};
 ## 示例
 
 以下是一个简单的规则文件示例：
-
-事件最少需要：
-
-- onInfo
-- onList 或 onSearch 一个或两个
 
 ```javascript
 // 搜索处理
