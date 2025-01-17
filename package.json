@@ -1,0 +1,26 @@
+{
+  "name": "hunhepan-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rolldown --config rolldown.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rolldown/plugin-node-polyfills": "^1.0.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.10.2",
+    "cheerio": "^1.0.0",
+    "rolldown": "1.0.0-beta.1",
+    "unocss": "^0.65.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "radash": "^12.1.0",
+    "rollup-plugin-corejs": "^1.0.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "夸克搜",
+  "url": "https://www.quark.so",
+  "weight": 5,
+  "version": "v0.0.1",
+  "search_filters": [],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://www.quark.so",
+      "label": "网站地址",
+      "type": "text"
+    }
+  ],
+  "group": "网盘"
+}

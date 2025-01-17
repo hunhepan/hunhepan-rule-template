@@ -1,0 +1,95 @@
+{
+  "name": "千帆",
+  "url": "https://www.niceso.net/",
+  "version": "v0.0.1",
+  "weight": 1,
+  "search_filters": [
+    {
+      "field": "type",
+      "label": "类型",
+      "default": "all",
+      "type": "select",
+      "options": [
+        {
+          "label": "全部",
+          "value": "all"
+        },
+        {
+          "label": "文件夹",
+          "value": "folder"
+        },
+        {
+          "label": "视频",
+          "value": "video"
+        },
+        {
+          "label": "音频",
+          "value": "audio"
+        },
+        {
+          "label": "图片",
+          "value": "image"
+        },
+        {
+          "label": "文档",
+          "value": "doc"
+        },
+        {
+          "label": "应用",
+          "value": "app"
+        },
+        {
+          "label": "压缩包",
+          "value": "zip"
+        },
+        {
+          "label": "其他",
+          "value": "others"
+        }
+      ]
+    },
+    {
+      "field": "pan",
+      "label": "网盘",
+      "default": "all",
+      "type": "select",
+      "options": [
+        {
+          "label": "聚合",
+          "value": "all"
+        },
+        {
+          "label": "阿里云盘",
+          "value": "aliyundrive"
+        },
+        {
+          "label": "百度网盘",
+          "value": "baidu"
+        },
+        {
+          "label": "夸克网盘",
+          "value": "quark"
+        },
+        {
+          "label": "迅雷云盘",
+          "value": "xunlei"
+        },
+        {
+          "label": "蓝奏云",
+          "value": "lanzou"
+        }
+      ]
+    }
+  ],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "code",
+      "default": "868686",
+      "label": "Code",
+      "type": "text",
+      "helper_text": "Code"
+    }
+  ],
+  "group": "网盘"
+}

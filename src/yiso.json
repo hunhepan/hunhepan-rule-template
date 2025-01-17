@@ -1,0 +1,64 @@
+{
+  "name": "易搜",
+  "url": "https://yiso.fun",
+  "version": "v0.0.1",
+  "weight": 1,
+  "search_filters": [
+    {
+      "field": "type",
+      "default": "",
+      "label": "文件类型",
+      "type": "select",
+      "options": [
+        {
+          "value": "",
+          "label": "综合"
+        },
+        {
+          "value": "folder",
+          "label": "文件夹"
+        },
+        {
+          "value": "doc",
+          "label": "文档"
+        },
+        {
+          "value": "video",
+          "label": "视频"
+        },
+        {
+          "value": "pic",
+          "label": "图片"
+        },
+        {
+          "value": "package",
+          "label": "压缩包"
+        },
+        {
+          "value": "music",
+          "label": "音频"
+        },
+        {
+          "value": "others",
+          "label": "其它"
+        }
+      ]
+    }
+  ],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://yiso.fun",
+      "label": "网站地址",
+      "type": "text"
+    },
+    {
+      "field": "cookies",
+      "default": "",
+      "label": "Cookies",
+      "type": "textarea"
+    }
+  ],
+  "group": "网盘"
+}

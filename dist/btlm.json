@@ -1,0 +1,42 @@
+{
+  "name": "Bt联盟",
+  "url": "https://btlm.info/",
+  "version": "v0.0.1",
+  "weight": 1,
+  "group": "磁力",
+  "search_filters": [
+    {
+      "field": "sort",
+      "default": "",
+      "label": "排序",
+      "type": "select",
+      "options": [
+        {
+          "label": "相关度",
+          "value": ""
+        },
+        {
+          "label": "大小",
+          "value": "size"
+        },
+        {
+          "label": "下载次数",
+          "value": "viewnum"
+        },
+        {
+          "label": "收录时间",
+          "value": "date"
+        }
+      ]
+    }
+  ],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://cdn.btlm.top:65533",
+      "label": "网站地址",
+      "type": "text"
+    }
+  ]
+}

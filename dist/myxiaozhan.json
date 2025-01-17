@@ -1,0 +1,17 @@
+{
+  "name": "我的小站",
+  "url": "https://myxiaozhan.net",
+  "version": "v0.0.1",
+  "weight": 1,
+  "search_filters": [],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://myxiaozhan.net",
+      "label": "网站地址",
+      "type": "text"
+    }
+  ],
+  "group": "网盘"
+}

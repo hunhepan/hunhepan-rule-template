@@ -1,0 +1,42 @@
+{
+  "name": "咔帕搜索",
+  "url": "https://www.cuppaso.com",
+  "version": "v0.0.1",
+  "weight": 1,
+  "search_filters": [
+    {
+      "field": "type",
+      "default": "0",
+      "label": "网盘类型",
+      "type": "select",
+      "options": [
+        {
+          "value": "0",
+          "label": "综合全部"
+        },
+        {
+          "value": "1",
+          "label": "夸克云盘"
+        },
+        {
+          "value": "2",
+          "label": "阿里云盘"
+        },
+        {
+          "value": "4",
+          "label": "迅雷云盘"
+        }
+      ]
+    }
+  ],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://www.cuppaso.com",
+      "label": "网站地址",
+      "type": "text"
+    }
+  ],
+  "group": "网盘"
+}

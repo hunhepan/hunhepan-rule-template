@@ -1,0 +1,41 @@
+{
+  "name": "学霸盘",
+  "url": "https://www.xuebapan.com",
+  "version": "v0.0.1",
+  "weight": 1,
+  "search_filters": [
+    {
+      "field": "time",
+      "default": "0",
+      "label": "时间排序",
+      "type": "select",
+      "options": [
+        {
+          "value": "0",
+          "label": "不限时间"
+        },
+        {
+          "value": "1",
+          "label": "最近一月"
+        },
+        {
+          "value": "2",
+          "label": "最近半年"
+        },
+        {
+          "value": "3",
+          "label": "最近一年"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://www.xuebapan.com",
+      "label": "网站地址",
+      "type": "text"
+    }
+  ],
+  "group": "网盘"
+}

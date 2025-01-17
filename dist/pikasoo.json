@@ -1,0 +1,94 @@
+{
+  "name": "皮卡搜索",
+  "url": "https://www.pikasoo.top",
+  "version": "v0.0.1",
+  "weight": 1,
+  "search_filters": [
+    {
+      "field": "pan",
+      "default": "all",
+      "label": "网盘类型",
+      "type": "select",
+      "options": [
+        {
+          "value": "all",
+          "label": "聚合搜索"
+        },
+        {
+          "value": "aliyundrive",
+          "label": "阿里云盘"
+        },
+        {
+          "value": "baidu",
+          "label": "百度网盘"
+        },
+        {
+          "value": "quark",
+          "label": "夸克网盘"
+        },
+        {
+          "value": "lanzou",
+          "label": "蓝奏云盘"
+        },
+        {
+          "value": "cloud189",
+          "label": "天翼云盘"
+        }
+      ]
+    },
+    {
+      "field": "type",
+      "default": "all",
+      "label": "文件类型",
+      "type": "select",
+      "options": [
+        {
+          "value": "all",
+          "label": "综合"
+        },
+        {
+          "value": "folder",
+          "label": "文件夹"
+        },
+        {
+          "value": "video",
+          "label": "视频"
+        },
+        {
+          "value": "audio",
+          "label": "音频"
+        },
+        {
+          "value": "image",
+          "label": "图片"
+        },
+        {
+          "value": "doc",
+          "label": "文档"
+        },
+        {
+          "value": "app",
+          "label": "软件"
+        },
+        {
+          "value": "zip",
+          "label": "压缩包"
+        },
+        {
+          "value": "others",
+          "label": "其它"
+        }
+      ]
+    }
+  ],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://www.pikasoo.top",
+      "label": "网站地址",
+      "type": "text"
+    }
+  ],
+  "group": "网盘"
+}

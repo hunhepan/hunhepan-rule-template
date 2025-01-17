@@ -1,0 +1,46 @@
+{
+  "name": "捕娱兔",
+  "url": "https://www.buyutu.com",
+  "version": "v0.0.1",
+  "weight": 1,
+  "group": "网盘",
+  "search_filters": [
+    {
+      "field": "disk_type",
+      "default": "all",
+      "label": "网盘",
+      "type": "select",
+      "options": [
+        { "value": "all", "label": "综合全部" },
+        { "value": "quark", "label": "夸克网盘" },
+        { "value": "alipan", "label": "阿里云盘" },
+        { "value": "baidu", "label": "百度网盘" }
+      ]
+    },
+    {
+      "field": "type",
+      "default": "",
+      "label": "类型",
+      "type": "select",
+      "options": [
+        { "value": "", "label": "综合" },
+        { "value": "0", "label": "视频" },
+        { "value": "1", "label": "图片" },
+        { "value": "2", "label": "文档" },
+        { "value": "3", "label": "音乐" },
+        { "value": "4", "label": "压缩包" },
+        { "value": "5", "label": "软件" },
+        { "value": "dir", "label": "文件夹" }
+      ]
+    }
+  ],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://www.buyutu.com",
+      "label": "网站地址",
+      "type": "text"
+    }
+  ]
+}

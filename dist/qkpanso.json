@@ -1,0 +1,17 @@
+{
+  "name": "夸克盘搜",
+  "url": "https://qkpanso.com",
+  "version": "v0.0.1",
+  "weight": 5,
+  "search_filters": [],
+  "settings": [
+    {
+      "field": "user_agent",
+      "default": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+      "label": "User-Agent",
+      "type": "textarea",
+      "helper_text": "User-Agent..."
+    }
+  ],
+  "group": "网盘"
+}

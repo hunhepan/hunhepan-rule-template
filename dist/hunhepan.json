@@ -1,0 +1,90 @@
+{
+  "name": "混合盘",
+  "url": "https://hunhepan.com",
+  "version": "v0.0.1",
+  "weight": 999,
+  "warn_text": "混合盘测试规则",
+  "list_filters": [],
+  "search_filters": [
+    {
+      "field": "order",
+      "default": "desc",
+      "label": "排序",
+      "type": "select",
+      "options": [
+        {
+          "value": "asc",
+          "label": "正序"
+        },
+        {
+          "value": "desc",
+          "label": "倒序"
+        }
+      ]
+    },
+    {
+      "field": "time",
+      "default": "",
+      "label": "时间",
+      "type": "select",
+      "options": [
+        {
+          "value": "",
+          "label": "不限"
+        },
+        {
+          "value": "week",
+          "label": "一周内"
+        },
+        {
+          "value": "month",
+          "label": "一个月内"
+        },
+        {
+          "value": "three_month",
+          "label": "三个月内"
+        },
+        {
+          "value": "year",
+          "label": "一年内"
+        }
+      ]
+    },
+    {
+      "field": "type",
+      "default": "",
+      "label": "来源",
+      "type": "select",
+      "options": [
+        {
+          "value": "",
+          "label": "全部"
+        },
+        {
+          "value": "BDY",
+          "label": "百度云"
+        },
+        {
+          "value": "ALY",
+          "label": "阿里云"
+        },
+        {
+          "value": "QUARK",
+          "label": "夸克"
+        },
+        {
+          "value": "XUNLEI",
+          "label": "迅雷"
+        }
+      ]
+    },
+    {
+      "field": "exact",
+      "default": false,
+      "label": "精确匹配",
+      "type": "checkbox"
+    }
+  ],
+  "settings": [],
+  "group": "网盘"
+}
