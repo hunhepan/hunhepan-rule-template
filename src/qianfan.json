@@ -88,7 +88,7 @@
       "default": "868686",
       "label": "Code",
       "type": "text",
-      "helper_text": "Code"
+      "helper_text": "code 需要关注公众号获取"
     }
   ],
   "group": "网盘"

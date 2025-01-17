@@ -9,11 +9,6 @@ hun.events.onSearch = async (ctx) => {
   const { page, query } = ctx;
   const { code } = ctx.settings || {};
   const { pan = 'all', type = 'all' } = ctx.filters || {};
-  console.log('🚀 ~ hun.events.onSearch= ~ type:', type);
-  console.log('🚀 ~ hun.events.onSearch= ~ pan:', pan);
-  console.log('🚀 ~ hun.events.onSearch= ~ cookies:', cookies);
-  console.log('🚀 ~ hun.events.onSearch= ~ query:', query);
-  console.log('🚀 ~ hun.events.onSearch= ~ page:', page);
 
   if (!code) throw '请先在设置中填写code';
   const base_url = `https://www.niceso.net`;
