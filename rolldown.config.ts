@@ -14,11 +14,11 @@ const fs = require('fs');
 
 fs.readdirSync(srcDir).forEach((file: string) => {
   if (path.extname(file) === '.js') {
-    input[path.join(srcDir, file)] = file;
+    if (!file.includes('bak')) {
+      input[path.join(srcDir, file)] = file;
+    }
   }
 });
-
-console.log('🚀 ~ input:', input);
 
 export default defineConfig(
   Object.keys(input).map((key) => ({

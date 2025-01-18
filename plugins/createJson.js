@@ -46,6 +46,7 @@ export default function createJsonFiles() {
 
         if (!stat.isDirectory() && file.endsWith('.js')) {
           const jsonPath = filePath.replace(/\.js$/, '.json');
+          if(filePath.includes('bak')) return;
 
           if (!fs.existsSync(jsonPath)) {
             try {

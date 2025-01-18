@@ -1,0 +1,46 @@
+{
+  "name": "猫狸盘搜",
+  "url": "https://alipansou.com",
+  "version": "v0.0.1",
+  "weight": 1,
+  "group": "",
+  "warn_text": "",
+  "search_filters": [
+    {
+      "field": "sort",
+      "default": "0",
+      "type": "select",
+      "label": "排序",
+      "options": [
+        { "value": "0", "label": "默认排序" },
+        { "value": "1", "label": "时间排序" },
+        { "value": "2", "label": "完全匹配" }
+      ]
+    },
+    {
+      "field": "type",
+      "default": "-1",
+      "type": "select",
+      "label": "类型",
+      "options": [
+        { "value": "-1", "label": "全部类别" },
+        { "value": "1", "label": "视频" },
+        { "value": "2", "label": "音乐" },
+        { "value": "3", "label": "图片" },
+        { "value": "4", "label": "文档" },
+        { "value": "5", "label": "压缩包" },
+        { "value": "6", "label": "其他" },
+        { "value": "7", "label": "文件夹" }
+      ]
+    }
+  ],
+  "list_filters": [],
+  "settings": [
+    {
+      "field": "base_url",
+      "default": "https://alipansou.com",
+      "label": "网站地址",
+      "type": "text"
+    }
+  ]
+}
